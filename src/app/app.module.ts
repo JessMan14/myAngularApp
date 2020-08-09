@@ -7,14 +7,16 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { GraphsComponent } from './graphs/graphs.component'
+import { GraphsComponent } from './graphs/graphs.component';
+import { MaterialComponent } from './material/material.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ListComponent,
-    GraphsComponent
+    GraphsComponent,
+    MaterialComponent
   ],
   imports: [
     BrowserModule,
