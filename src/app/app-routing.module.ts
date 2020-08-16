@@ -9,6 +9,7 @@ import { from } from 'rxjs';
 
 const routes: Routes = [
   { path: '', component: HomeComponent}, // default
+  { path: 'home', component: HomeComponent}, // default
   { path: 'list', component: ListComponent},
   { path: 'graphs', component: GraphsComponent },
   { path: 'material', component: MaterialComponent},
