@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { GraphsComponent } from './graphs/graphs.component';
 import { MaterialComponent } from './material/material.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MaterialComponent } from './material/material.component';
     HomeComponent,
     ListComponent,
     GraphsComponent,
-    MaterialComponent
+    MaterialComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
