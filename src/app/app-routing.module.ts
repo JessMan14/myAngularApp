@@ -4,6 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { GraphsComponent } from './graphs/graphs.component';
 import { MaterialComponent } from './material/material.component'
+import { AuthComponent } from './auth/auth.component'
 import { from } from 'rxjs';
 
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'list', component: ListComponent},
   { path: 'graphs', component: GraphsComponent },
   { path: 'material', component: MaterialComponent},
+  { path: 'auth', component: AuthComponent},
 ];
 
 @NgModule({
