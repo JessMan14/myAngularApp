@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { GraphsComponent } from './graphs/graphs.component';
 import { MaterialComponent } from './material/material.component';
 import { AuthComponent } from './auth/auth.component';
+import { AgGridModule } from 'ag-grid-angular';
+import { MapChartComponent } from './map-chart/map-chart.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { AuthComponent } from './auth/auth.component';
     ListComponent,
     GraphsComponent,
     MaterialComponent,
-    AuthComponent
+    AuthComponent,
+    MapChartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]
