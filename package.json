@@ -23,6 +23,8 @@
     "@angular/router": "~10.0.5",
     "ag-grid-angular": "^24.1.0",
     "ag-grid-community": "^24.1.0",
+    "ng2-pdf-viewer": "^6.3.2",
+    "ngx-extended-pdf-viewer": "^6.2.0-alpha.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

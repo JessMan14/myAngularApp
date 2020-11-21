@@ -1,0 +1,31 @@
+<h1> Angular 10 PDF Viewer</h1>
+<!-- <ngx-extended-pdf-viewer [src]="'assets/example.pdf'" 
+[showPrintButton]="false" [showBookmarkButton]="false"
+[showOpenFileButton]="false" 
+[showSidebarOnLoad]="false"
+[showSidebarButton]="true" 
+delayFirstView="6000" useBrowserLocale="false">
+</ngx-extended-pdf-viewer> -->
+
+<!-- <ngx-extended-pdf-viewer
+     src="/assets/example.pdf" 
+     [showPrintButton]="false" [showBookmarkButton]="false"
+     [showOpenFileButton]="false" 
+     [showSidebarOnLoad]="false"
+     [showSidebarButton]="true" 
+     delayFirstView="6000" useBrowserLocale="false"
+     >
+     
+</ngx-extended-pdf-viewer> -->
+
+<div class="container">
+    <pdf-viewer
+        [src]="pdfSource"
+        [original-size]="false"  
+    >
+    </pdf-viewer>  
+
+    <video width="320" height="240" controls>
+        <source src="/assets/W001 Customer Search - Name.mp4" type="video/mp4">.
+      </video>
+</div>
