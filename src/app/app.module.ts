@@ -8,8 +8,12 @@ import { ListComponent } from './list/list.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { GraphsComponent } from './graphs/graphs.component';
-import { MaterialComponent } from './material/material.component';
 import { AuthComponent } from './auth/auth.component';
+import { AgGridModule } from 'ag-grid-angular';
+import { MapChartComponent } from './map-chart/map-chart.component';
+import { PdfViewerComponent } from './pdf-viewer/pdf-viewer.component';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import  { PdfViewerModule }  from  'ng2-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -17,14 +21,18 @@ import { AuthComponent } from './auth/auth.component';
     HomeComponent,
     ListComponent,
     GraphsComponent,
-    MaterialComponent,
-    AuthComponent
+    AuthComponent,
+    MapChartComponent,
+    PdfViewerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxExtendedPdfViewerModule,
+    PdfViewerModule,
+    AgGridModule.withComponents([])
   ],
   providers: [],
   bootstrap: [AppComponent]

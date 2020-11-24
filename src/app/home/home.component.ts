@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit {
       console.log("found token in storage");
     } else {
       console.log("No found token in storage");
-      window.location.href = "http://localhost:4200/";
+      //window.location.href = "http://localhost:4200/";
     }
   }
 

@@ -48,6 +48,9 @@ export class GraphsComponent implements OnInit {
       valueAxis.tooltip.disabled = true;
       valueAxis.renderer.minWidth = 35;
 
+      // hinds the labels
+      valueAxis.renderer.labels.template.disabled = true;
+
       let series = chart.series.push(new am4charts.LineSeries());
       series.dataFields.dateX = "date";
       series.dataFields.valueY = "value";
